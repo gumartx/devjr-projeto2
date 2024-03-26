@@ -1,0 +1,30 @@
+body {
+    color: #fff;
+    font-family: sans-serif;
+    background-color: #CCCCCC;
+}
+
+.container {
+    padding: 1.2rem 2.5rem;
+    text-align: center;
+    margin: auto;
+    border-radius: 10px;
+    width: 700px;
+    background-image: linear-gradient( to bottom, #210D25, #641F70);
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.header-title {
+    color: #FECD23;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.form-register {
+    background-image: linear-gradient( to top, #210D25, #641F70);
+}
