@@ -1,16 +1,18 @@
 body {
-    color: #fff;
+    color: #DDE7DF;
     font-family: sans-serif;
     background-color: #CCCCCC;
 }
 
 input {
-    padding: 8px;
-    height: 22px;
-    border: 0;
-    border-radius: 5px;
     width: 75%;
-    margin: 10px;
+    height: 22px;
+    padding: 0.7rem;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    border: 0;
+    margin: auto;
+    margin-bottom: 1.5rem;
 }
 
 input:focus {
@@ -21,8 +23,8 @@ input:focus {
 button {
     color: #fff;
     background-color: #1D0C20;
-    padding: 10px;
-    width: 75%;
+    padding: 15px;
+    width: 60%;
     border-radius: 4px;
     border: none;
     cursor: pointer;
@@ -34,24 +36,25 @@ button:hover {
 }
 
 .container {
-    padding: 0.9rem 2rem;
+    padding: 1.2rem 2rem;
+    padding-bottom: 0.8rem;
     text-align: center;
     margin: auto;
     border-radius: 10px;
-    width: 700px;
+    width: 750px;
     background-image: linear-gradient( to bottom, #210D25, #641F70);
+    overflow: hidden;
 }
 
 .header {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    padding: 0.8rem;
 }
 
 .header-title {
     color: #FECD23;
-    font-size: 2rem;
+    font-size: 2.1rem;
     font-weight: 700;
     margin-bottom: 2rem;
 }
@@ -65,21 +68,22 @@ button:hover {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    margin-top: 0.9rem;
+    margin-top: 1.5rem;
     margin-bottom: 0.8rem;
-    padding: 1.4rem 0.5rem;
+    padding: 1.3rem 0.2rem;
     border-radius: 10px;
     background-image: linear-gradient( to top, #210D25, #641F70);
-    box-sizing: border-box;
 }
 
 .form-register-title {
-    font-size: 1.6rem;
-    margin-bottom: 20px;
+    font-size: 1.8rem;
+    color: #FFFFEC;
+    margin-bottom: 2rem;
+    padding: 0.4rem;
 }
 
 .choices {
-    margin-top: 2rem;
+    margin-top: 1rem;
     display: flex;
     justify-content: space-around;
 }
@@ -98,8 +102,53 @@ button:hover {
 
 .choice-title {
     font-size: 1.4rem;
+    font-weight: 600;
 }
 
 .footer {
     font-size: 0.9rem;
+}
+
+@media (max-width: 620px) {
+
+    html {
+        font-size: 13px;
+    }
+
+    input {
+        width: 85%;
+    }
+
+    .header {
+        padding: 0 15px;
+    }
+
+    .header-title {
+        padding: 10px;
+        margin-bottom: 15px;
+    }
+
+    button {
+        width: 60%;
+    }
+
+    .container {
+        width: 90%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .form-register {
+        margin: 10px 30px 10px 30px;
+    }
+
+    .choices {
+        flex-direction: column;
+        margin: auto;
+        width: 80%;
+    }
+
+    .choices-card {
+        margin-top: 20px;
+    }
 }
