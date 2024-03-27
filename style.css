@@ -1,6 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 body {
-    color: #DDE7DF;
-    font-family: sans-serif;
+    color: #FFFFEC;
+    font-family: 'Noto Sans';
     background-color: #CCCCCC;
 }
 
@@ -57,6 +58,7 @@ button:hover {
     font-size: 2.1rem;
     font-weight: 700;
     margin-bottom: 2rem;
+    font-family: 'Encode Sans SC';
 }
 
 .header-subtitle {
@@ -70,14 +72,13 @@ button:hover {
     justify-content: space-around;
     margin-top: 1.5rem;
     margin-bottom: 0.8rem;
-    padding: 1.3rem 0.2rem;
+    padding: 1rem 0.2rem 1.3rem 0.2rem;
     border-radius: 10px;
     background-image: linear-gradient( to top, #210D25, #641F70);
 }
 
 .form-register-title {
-    font-size: 1.8rem;
-    color: #FFFFEC;
+    font-size: 1.7rem;
     margin-bottom: 2rem;
     padding: 0.4rem;
 }
@@ -120,7 +121,7 @@ button:hover {
     }
 
     .header {
-        padding: 0 15px;
+        padding: 0 10px;
     }
 
     .header-title {
@@ -139,6 +140,7 @@ button:hover {
     }
 
     .form-register {
+        padding-top: 20px;
         margin: 10px 30px 10px 30px;
     }
 
